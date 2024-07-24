@@ -1,0 +1,42 @@
+.stApp > header {
+    display: none;
+}
+
+.stApp > .appview-container {
+    flex-direction: inherit;
+    margin: -126px 0 8px 0;
+}
+
+.main > .block-container, [data-testid="stBottomBlockContainer"] {
+    max-width: 100rem;
+}
+
+[data-testid="stChatMessage"] {
+    max-width: 100rem;
+}
+
+[data-testid="stChatInput"] > div > div {
+    border-color: transparent !important;
+}
+
+.wk-auto-header {
+    font-size: 32px;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.wk-auto-subheader {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+.wk-fishbowl-thumbs {
+    padding-left: 8px;
+}
+
+#here-is-the-final-result{
+    color: rgb(9, 171, 59);
+    padding-bottom: 8px;
+    padding-top: 0px;
+}
