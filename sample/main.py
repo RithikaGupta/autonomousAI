@@ -10,7 +10,7 @@ from utils.htmlHelper import addHtmlHeader
 
 llm = AzureChatOpenAI(openai_api_type="azure", openai_api_version="2024-02-01",
                       azure_endpoint="https://chat-fast-86510d1a.openai.azure.com",
-                      openai_api_key="c6e872e392a2457a9783efd73bf1b8ff", deployment_name="gpt-35-turbo-1106",
+                      openai_api_key="", deployment_name="gpt-35-turbo-1106",
                       model="gpt-35-turbo")
 
 topic = ""
